@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html {
   font-size: 10px;
 }
@@ -74,7 +79,7 @@ section {
   display: block;
 }
 
-#headline {
+#head-line {
   margin: 50px 0;
   text-align: center;
 }
@@ -93,15 +98,7 @@ ul {
   max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: left;
-  align-items: center;
   line-height: 1.6;
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 li {
@@ -112,16 +109,10 @@ li {
 
 blockquote {
   font-style: italic;
-  max-width: 545px;
+  max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: left;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
 }
-
 cite {
   font-style: italic;
 }
